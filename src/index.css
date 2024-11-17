@@ -4,20 +4,22 @@
   url('./assets/fonts/Poppins-Regular.ttf') 
 }
 :root {
-  font-family: "Poppins";
   padding: 0px !important;
   margin: 0px !important;
-  color: #000000;
-  background-color: #FFFFFF;
+  height: 100% ;
 }
 
 
 body {
   padding: 0px !important;
   margin: 0px !important;
-  min-height: 100vh;
+  font-family: "Poppins";
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 100% ;
 }
 #root {
   padding: 0px !important;
   margin: 0px !important;
+  height: 100% ;
 }
