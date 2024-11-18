@@ -17,28 +17,19 @@
   width: 20rem;
   height: 20rem;
 }
-p {
-  padding: 0%;
-  margin: 0%;
-}
-a {
-  padding: 0%;
-  margin: 0%;
-}
+
 .description {
   text-align: start;
 }
 .brandName {
   font-weight: bold;
-  font-size: 2rem;
-  letter-spacing: 1px;
-  line-height: 1.2;
+  font-size: 2rem; 
   text-wrap: nowrap;
   font-weight: 500;
   color: #222;
 }
 .brandDesc {
-  max-width: 900px;
+  max-width: 700px;
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: #333;
@@ -57,65 +48,44 @@ a {
   opacity: 0.75;
 }
 
-.icon {
-  font-size: 1.35rem;
-}
+
 .copyright {
-  position: fixed;
+  position: fixed; 
   font-size: 0.85rem;
   bottom: 0.5rem;
   color: #555555;
 }
 
-@media screen and (max-width: 950px) {
-  .brandDesc {
-    max-width: 600px;
-  }
-}
 
 @media only screen and (max-width: 700px) {
-  .logo {
-    width: 15rem;
-    height: 15rem;
-  }
-  .brandDesc {
-    padding: 0 2rem;
-    font-size: 1.1rem;
-  }
-  .socialLinksDiv {
-    padding: 0 2rem;
-    font-size: 0.75rem;
-  }
-  .socialTitle {
-    padding: 0 2rem;
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-  }
+    .mainContent {
+        height: auto;
+    }
+    .logo {
+        width: 15rem;
+        height: 15rem;
+      }
+      .brandName {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+      .brandDesc {
+        padding: 0 2rem ;
+        font-size: 1.1rem;
+      } 
+      .socialTitle {
+        padding: 0 2rem;
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+      }
+      .socialLinksDiv {
+        padding: 0 2rem;
+        font-size: 0.75rem;
+      }
 
-  .icon {
-    font-size: 1.2rem;
-  }
-}
+      .copyright {
+        margin-top: 2rem;
+        position: static;
+      }
 
-@media only screen and (max-width: 350px) {
-  .logo {
-    width: 10rem;
-    height: 10rem;
-  }
-  .brandName {
-    font-size: 1.5rem;
-  }
-  .brandDesc {
-    font-size: 0.95rem;
-  }
-  .socialTitle {
-    font-size: 0.95rem;
-    margin-bottom: 0.25rem;
-  }
-  .socialLinksDiv .link {
-    font-size: 9rem !important;
-  }
-  .copyright {
-    font-size: 0.65rem;
-  }
-}
+ }
