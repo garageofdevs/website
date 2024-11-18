@@ -1,25 +1,15 @@
-@font-face{
-  font-family: "Poppins";
-  src:local("Poppins-Regular"),
-  url('./assets/fonts/Poppins-Regular.ttf') 
-}
-:root {
-  padding: 0px !important;
-  margin: 0px !important;
-  height: 100% ;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 
 body {
-  padding: 0px !important;
-  margin: 0px !important;
   font-family: "Poppins";
-  color: #000000;
   background-color: #FFFFFF;
-  height: 100% ;
-}
-#root {
-  padding: 0px !important;
-  margin: 0px !important;
-  height: 100% ;
 }
