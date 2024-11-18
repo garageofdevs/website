@@ -23,7 +23,7 @@
 }
 .brandName {
   font-weight: bold;
-  font-size: 2rem; 
+  font-size: 2rem;
   text-wrap: nowrap;
   font-weight: 500;
   color: #222;
@@ -48,44 +48,46 @@
   opacity: 0.75;
 }
 
-
 .copyright {
-  position: fixed; 
   font-size: 0.85rem;
   bottom: 0.5rem;
   color: #555555;
+  margin-top: 2rem;
 }
 
-
 @media only screen and (max-width: 700px) {
-    .mainContent {
-        height: auto;
-    }
-    .logo {
-        width: 15rem;
-        height: 15rem;
-      }
-      .brandName {
-        font-size: 1.5rem;
-        font-weight: 500;
-      }
-      .brandDesc {
-        padding: 0 2rem ;
-        font-size: 1.1rem;
-      } 
-      .socialTitle {
-        padding: 0 2rem;
-        font-size: 1rem;
-        margin-bottom: 0.25rem;
-      }
-      .socialLinksDiv {
-        padding: 0 2rem;
-        font-size: 0.75rem;
-      }
+  .mainContent {
+    height: auto;
 
-      .copyright {
-        margin-top: 2rem;
-        position: static;
-      }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .logo {
+    width: 15rem;
+    height: 15rem;
+  }
+  .brandName {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .brandDesc {
+    padding: 0 2rem;
+    font-size: 1.1rem;
+  }
+  .socialTitle {
+    padding: 0 2rem;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .socialLinksDiv {
+    padding: 0 2rem;
+    font-size: 0.75rem;
+  }
 
- }
+  .copyright {
+    position: static;
+  }
+}
